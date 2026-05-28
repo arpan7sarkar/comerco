@@ -1,5 +1,5 @@
 {
-  "name": "@comerco2/auth-service",
+  "name": "@comerco/auth-service",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -84,15 +84,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@comerco2/auth-service:build",
+          "buildTarget": "@comerco/auth-service:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@comerco2/auth-service:build:development"
+            "buildTarget": "@comerco/auth-service:build:development"
           },
           "production": {
-            "buildTarget": "@comerco2/auth-service:build:production"
+            "buildTarget": "@comerco/auth-service:build:production"
           }
         }
       },

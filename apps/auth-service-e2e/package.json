@@ -1,10 +1,10 @@
 {
-  "name": "@comerco2/auth-service-e2e",
+  "name": "@comerco/auth-service-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@comerco2/auth-service"
+      "@comerco/auth-service"
     ],
     "targets": {
       "e2e": {
@@ -17,8 +17,8 @@
           "passWithNoTests": true
         },
         "dependsOn": [
-          "@comerco2/auth-service:build",
-          "@comerco2/auth-service:serve"
+          "@comerco/auth-service:build",
+          "@comerco/auth-service:serve"
         ]
       }
     }
