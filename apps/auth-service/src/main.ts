@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import errorMiddleWare from "../../../packages/error-handler";
+import { errorMiddleware } from "../../../packages/error-handler/error-middleware";
 import cookieParser from "cookie-parser";
 
 
@@ -18,7 +18,7 @@ app.use(
 app.use(cookieParser());
 app.use(express.json())
 
-app.use(errorMiddleWare);
+app.use(errorMiddleware);
 
 
 app.get("/", (req, res) => {
