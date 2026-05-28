@@ -4,12 +4,12 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug @comerco2/auth-service with Nx",
+      "name": "Debug @comerco/auth-service with Nx",
       "runtimeExecutable": "npx",
       "runtimeArgs": [
         "nx",
         "serve",
-        "@comerco2/auth-service"
+        "@comerco/auth-service"
       ],
       "env": {
         "NODE_OPTIONS": "--inspect=9229"
@@ -28,12 +28,12 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug @comerco2/api-gateway with Nx",
+      "name": "Debug @comerco/api-gateway with Nx",
       "runtimeExecutable": "npx",
       "runtimeArgs": [
         "nx",
         "serve",
-        "@comerco2/api-gateway"
+        "@comerco/api-gateway"
       ],
       "env": {
         "NODE_OPTIONS": "--inspect=9230"

@@ -1,5 +1,5 @@
 {
-  "name": "@comerco2/api-gateway",
+  "name": "@comerco/api-gateway",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -46,15 +46,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@comerco2/api-gateway:build",
+          "buildTarget": "@comerco/api-gateway:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@comerco2/api-gateway:build:development"
+            "buildTarget": "@comerco/api-gateway:build:development"
           },
           "production": {
-            "buildTarget": "@comerco2/api-gateway:build:production"
+            "buildTarget": "@comerco/api-gateway:build:production"
           }
         }
       }
