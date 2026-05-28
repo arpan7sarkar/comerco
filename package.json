@@ -11,10 +11,15 @@
   "devDependencies": {
     "@nx/docker": "22.7.5",
     "@nx/esbuild": "22.7.5",
+    "@nx/express": "^22.7.5",
     "@nx/jest": "22.7.5",
     "@nx/js": "22.7.5",
     "@nx/node": "22.7.5",
+    "@nx/web": "22.7.5",
+    "@nx/webpack": "22.7.5",
     "@nx/workspace": "22.7.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@svgr/webpack": "^8.0.1",
     "@swc-node/register": "~1.11.1",
     "@swc/core": "~1.15.5",
     "@swc/helpers": "~0.5.18",
@@ -27,10 +32,12 @@
     "jest-environment-node": "~30.3.0",
     "jest-util": "~30.3.0",
     "nx": "22.7.5",
+    "react-refresh": "^0.10.0",
     "ts-jest": "^29.4.0",
     "ts-node": "10.9.1",
     "tslib": "^2.3.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "webpack-cli": "^5.1.4"
   },
   "workspaces": [
     "apps/*"
