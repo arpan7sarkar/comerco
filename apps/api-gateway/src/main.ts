@@ -40,9 +40,13 @@ app.get("/gateway-health", (req, res) => {
   res.send({ message: "Welcome to api-gateway!" });
 });
 
-app.use("/", proxy("http://localhost:6001"));
+const authServiceUrl =
+  process.env.AUTH_SERVICE_URL ||
+  `http://localhost:${process.env.AUTH_SERVICE_PORT || 6001}`;
 
-const port = process.env.PORT || 6001;
+app.use("/", proxy(authServiceUrl));
+
+const port = Number(process.env.PORT) || 6000;
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/gateway-health`);
 });
