@@ -1,5 +1,4 @@
 import express from "express";
-import * as path from "path";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
 import proxy from "express-http-proxy";
